@@ -1,0 +1,173 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+nav.navbar {
+  background-color: #333532;
+}
+
+.navbar-nav.navbar-item a:active {
+  color: white;
+}
+
+/* JUMBOTRON */
+
+#jumbotron {
+  height: 100vh;
+  padding-top: 6rem;
+  background-color: #333532;
+  color: white;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+#jumbotron .name-section {
+  font-size: 10px;
+  padding-top: 7rem;
+}
+
+/* ABOUT */
+
+#about {
+  background-color: #4b4d49;
+  color: white;
+  height: 100vh;
+}
+
+#about .about-me {
+  text-decoration: underline;
+  color: #f2be22;
+  padding-top: 50px;
+  padding-bottom: 18px;
+  text-shadow: 1px 1px black;
+}
+
+/* CERTIFICATION */
+#certification {
+  height: 100vh;
+  background-color: #333532;
+}
+
+#certification h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px black;
+}
+
+#certification .card {
+  background-color: #d8d9d7;
+}
+
+/* PROJECT */
+
+#project {
+  background-color: #4b4d49;
+  height: 100vh;
+}
+
+#project h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px black;
+}
+
+#project .row .card {
+  background-color: #d8d9d7;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+div.card h3 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+div.card:hover {
+  transform: translateY(2px);
+}
+
+div.button {
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+
+div.button a {
+  border: none;
+  padding: 6px 30px;
+  border-radius: 14px;
+  background-color: rgb(72, 72, 245);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+  background-color: #e4af10;
+}
+
+/* CONTACT */
+#contact {
+  background-color: #333532;
+  height: 100vh;
+}
+
+#contact h2 {
+  text-decoration: underline;
+  color: #f2be22;
+  text-shadow: 1px 1px black;
+}
+
+#contact form label {
+  color: white;
+}
+
+/* Social Media */
+
+#social {
+  width: 100%;
+  height: 100vh;
+  background-color: #4b4d49;
+  margin: auto;
+  padding-top: 20%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+#social .penutup h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+#social .penutup p {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+#social ul li {
+  margin: 30px;
+  list-style: none;
+  display: inline-block;
+}
+
+.fa-brands {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  background-color: #333532;
+}
